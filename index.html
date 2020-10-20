@@ -9,33 +9,65 @@
 
     
         <div>
-  <form>
-    <label>First Name</label>
-    <input type="text" >
+
+ 
+
+  <form name="formFirstame">
+    <label id="change"><strong>First Name</strong></label>
+    <input  type="text" name="textFirstName" >
+
+      </form>
   
+
+  <form  name="formLastName" >
 <p ></p>
-    <label >Last Name</label>
-    <input type="text" >
+    <label id="change"><strong>Last Name</strong></label>
+    <input type="text" name="textLastName" >
     <p ></p>
 
+ </form>
+
+ 
 
 
-    <label name="email" placeholder="Your Email..">Email</label>
+
+  <form name="formEmail" action="#"> 
+<label id="change" name="email" placeholder="Your Email.."><strong>Email</strong></label>
    
-    <input type="text">
+<input type='text' name='textEmail'/></li>
+ 
+ 
+ 
+</form>
+
+
+
 <p ></p>
-    <label >Phone Number</label>
-    <input type="text" >
+
+
+  <form name="formphoneNumber">
+    <label id="change"><strong>Phone Number</strong></label>
+    <input type="text" name="textphoneNumber" >
+
+      <form>
 <p ></p>
-    <label >country</label>
-    <input type="text" >
+
+  <form name="formCountry">
+    <label id="change" ><strong>country</strong></label>
+    <input type="text" name="textCounrty" >
     <p ></p>
-     <input class="btn" type="submit" value="Submit">
-
-
-  
-    
+ 
+ 
   </form>
+
+
+    <input class="btn" type="submit" value="Submit" onclick="ValidateEmail(document.formEmail.textEmail)"/>
+
+ 
+
+
+
+
 </div>
 
 

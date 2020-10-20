@@ -22,3 +22,12 @@ h1 {
   text-transform: uppercase;
   color: #4CAF50;
 }
+body {
+  
+ background-image: url("bodybuilding.jpg");
+ 
+ background-color: #cccccc;
+}
+#change{
+  color: red
+}
